@@ -32,19 +32,19 @@
 
 #### Решение
 ```
-**sudo nmap -sA < ip-адрес >**
+sudo nmap -sA < ip-адрес >
 ```
 Suricata - пусто. Сканирование с помощью ACK не определяется
 ```
-**sudo nmap -sT < ip-адрес >**
+sudo nmap -sT < ip-адрес >
 ```
 ![1-1](./13-03-1.png)
 ```
-**sudo nmap -sS < ip-адрес >**
+sudo nmap -sS < ip-адрес >
 ```
 ![1-2](./13-03-2.png)
 ```
-**sudo nmap -sV < ip-адрес >**
+sudo nmap -sV < ip-адрес >
 ```
 ![1-3](./13-03-3.png)
 ![1-4](./13-03-4.png)
